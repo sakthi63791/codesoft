@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif; 
+    text-decoration: none;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    background-color:rgb(215, 92, 219);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+nav h1{
+    font-size: 40px;
+    text-align: left;
+    margin-right: 600px;  
+    color: white; 
+    transition: 0.3s ease;
+}
+nav h1:hover{
+    color: purple;
+    text-shadow: 0 0 30px purple;
+    transform:scale(1.1);
+}
+span{
+    color: purple;
+}
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0 10px;
+    list-style:none;
+ }
+ nav ul li a{
+    color: white;
+    font-size: 25px;  
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    padding: 3px;
+}
+.navbar ul li a:hover,
+.navbar ul li a.active{
+    text-shadow: 0 0 30px rgb(231, 23, 169);
+    color: rgb(201, 25, 134);
+    padding: 5px;
+    transition: 0.3s ease;
+}
+section {
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    padding: 50px 300px 50px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+   
+    background: #5b5250;
+    color: #fff;
+    text-align: center;
+}
+.abtc{
+    position: relative;
+    left: 60px;
+    font-size: 28px;
+    text-align: left;
+    width: 500px;
+    height: 550px;
+
+}
+.se{
+    color: rgb(215, 92, 219);
+}
+.bt{
+    position: relative;
+    top: 30px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgb(215, 92, 219);
+    color:white;
+    box-shadow: 0 0 25px rgb(215, 92, 219);
+}
+.bt:hover{
+    background-color: purple;
+    box-shadow: 0 0 25px rgb(255, 0, 200);
+}
+.me{ 
+    width: 300px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px rgb(218, 68, 160);
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: blueviolet;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+.mabout{
+    border: 1px solid black;
+    padding-top: 100px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+}
+.i2{
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px rgb(219, 76, 164);
+
+}
+.abtc2{
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+    text-align: left;
+    width: 700px;
+    height: 470px;
+}
+.abtc2 p{
+    font-size: 20px;
+}
+.bt2{
+    position: relative;
+    top: 30px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(215, 92, 219);
+    color:white;
+    box-shadow: 0 0 25px rgb(215, 92, 219);
+    
+}
+.bt2:hover{
+    background-color: purple;
+    box-shadow: 0 0 25px rgb(238, 57, 199);  
+}
+.skills{
+    height: 600px;
+    list-style: none;
+    background: #333;
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    padding: 50px 30px 50px 0px;
+}
+.skill img{
+    border-radius: 50%;
+    height: 100px;
+}
+.r1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.s1{
+    padding: 20px 200px 200px 200px;
+    height: 200px;
+}
+.r2{
+    display: flex;
+  justify-content: space-between;
+}
+.pa{
+    color: white;
+    font-size: 15px;
+}
+.sh{
+    color: rgb(255, 0, 221);
+    font-size: 20px;
+}
+.p {
+    display: flex;
+    justify-content: center;
+    padding-left: 160px;
+}
+
+.p1 {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    color: black;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 0 25px blueviolet;
+
+}
+
+.p1:hover {
+    box-shadow: 0 0 25px orange;
+}
+
+.contact {
+    position: relative;
+    left: 225px;
+    top: 70px;
+    width: 500px;
+    height: 600px;
+    justify-content: center;
+}
+
+.contact form {
+    text-align: center;
+}
+
+.text {
+    position: relative;
+    left: 0px;
+    width: 450px;
+    margin: 10px;
+}
+
+form input {
+    margin: 10px;
+    width: 450px;
+    height: 50px;
+}
